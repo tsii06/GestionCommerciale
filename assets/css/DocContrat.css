@@ -1,0 +1,25 @@
+#containerContrat {
+	border: solid black 2px;
+	border-radius: 15px;
+	width: 50%;
+}
+
+.underline {
+	position: relative;
+}
+
+.underline:after {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 8px;
+	border-radius: 5px;
+	background: #157ad2;
+	z-index: -1;
+}
+
+.mg-left {
+	margin-left: 50px;
+}

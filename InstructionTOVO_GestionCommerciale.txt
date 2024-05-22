@@ -1,0 +1,56 @@
+V -> Valeur
+A -> Appartenance (zavatra mifandray tsara amin'ilay organisation)
+M -> Mesurable (Misy unité de mesure daholo ny zavatra gereny ilay systeme)
+P -> Présentation (Design, Affectation (ex: Rh ve mahita stock?, stock ve mahita karama ?), Bonne presentation)
+I -> Irrégularité (Tokony tsis erreur de calcule)
+R -> Réaliste
+E -> Existence (Possible ve ny verification physique ?(ex: Mpiasam-panjakana fantome)) Vient de <-> Va Vers
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Systeme commerciale
+
+Chaque departement  a sa besoin d'achat
+Validation de chef de service ou chef de departement
+Envoyer vers direction d'achat ou Service d'achat
+Grouper direction d'achat par nature
+
+ex : securité=> cahier 3, RH=> cahier 2 donc besoin globale = cahier 5
+
+achat: hebdomadaire ou mensuel
+Service achat : Facture Proforma (apperçu du futur facture) = Mandefa Mail automatique par rapport @ besoin
+	quantite article
+	disponibilite article
+	delai de livraison
+
+Mampiditra fournisseur
+Regle de gestion : Facture proforma 3 (ex: mangataka am jumbo score, superU, supermaki)
+Proforma tsy votery misy total
+
+Atao saisie am systeme ny données anle proforma
+jereny system ny moins disant (ze kely prix no alaina) par article, raha tsy ampy ny quantité am fournisseur 1 nefa mora de completena amze fournisseur moins cher
+Apres saisie , Generation bon commande par fournisseur 
+Validation Bon de commande par finance 
+Validation par signataire finale (DAF na DG)
+Envoye bon commande = Engagement d'achat ny bon commande
+
+Contenu Bon de Commande
+	Nom : Bon de Commande
+	Date
+	Id : Numero ex: BDC001
+	delai de livraison
+	Livraison partielle : OK ou Non (mandray entana partiellement ve ?)
+	Mode de payement : Cheque ou Virement
+	Adresser a quel fournisseur
+
+	Details
+		Categorie ex: fourniture de bureau
+		Designation
+		Quantite
+		P.U hors taxe
+		TVA
+		TTC
+		Total par colonne
+		Arreter le present bon de commande a la somme de (montant en lettre)
+		
+		Signature Societe et Fournisseur
